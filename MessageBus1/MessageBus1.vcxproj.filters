@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\ComponentA">
+      <UniqueIdentifier>{aee7e3f6-52ff-4e82-940f-b13d37d47e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ComponentB">
+      <UniqueIdentifier>{1b62544a-d971-42d5-baac-247790dd047f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SafeMessageBus">
+      <UniqueIdentifier>{adb56515-c00e-4e3c-856b-1991bc3b8189}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ComponentA.h">
+      <Filter>소스 파일\ComponentA</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentB.h">
+      <Filter>소스 파일\ComponentB</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>소스 파일\SafeMessageBus</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineId.h">
+      <Filter>소스 파일\SafeMessageBus</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>소스 파일\SafeMessageBus</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageReceiver.h">
+      <Filter>소스 파일\SafeMessageBus</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageSender.h">
+      <Filter>소스 파일\SafeMessageBus</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeBus.h">
+      <Filter>소스 파일\SafeMessageBus</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ComponentA.cpp">
+      <Filter>소스 파일\ComponentA</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentB.cpp">
+      <Filter>소스 파일\ComponentB</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>소스 파일\SafeMessageBus</Filter>
+    </ClCompile>
+    <ClCompile Include="SafeBus.cpp">
+      <Filter>소스 파일\SafeMessageBus</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageSender.cpp">
+      <Filter>소스 파일\SafeMessageBus</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageReceiver.cpp">
+      <Filter>소스 파일\SafeMessageBus</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
